@@ -9,18 +9,21 @@
       href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css"
       rel="stylesheet"
     />
+
+    <!-- link css -->
+     <link rel="./tailwind.init.css" href="">
   </head>
 
   <body class="bg-gray-100 flex items-center justify-center min-h-screen">
     <div class="card w-96 bg-white shadow-xl p-8">
       <div class="flex justify-center mb-4">
         <img
-          src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png"
+          src="./assets/github-logo.png"
           class="w-20 h-20"
         />
       </div>
 
-      <h2 class="text-center text-neutral text-2xl font-bold">
+      <h2 class="text-center text-neutral text-2xl font-bold text-neutral-700">
         GitHub Issues Tracker
       </h2>
       <p class="text-center text-gray-500 mb-6">
@@ -31,7 +34,7 @@
         id="username"
         type="text"
         placeholder="Username"
-        class="input input-bordered w-full mb-3"
+        class="input input-bordered w-full mb-1"
       />
       <br />
 
@@ -42,7 +45,7 @@
         class="input input-bordered w-full mb-4"
       />
 
-      <button onclick="login()" class="btn btn-primary w-full">Sign In</button>
+      <button onclick="login()" class="btn btn-primary w-full text-white">Sign In</button>
       <hr />
 
       <p class="text-center text-sm text-gray-500 mt-4">
